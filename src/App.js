@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <Home />
-      <OurProducts />
+      {/* <OurProducts />
       <Birthday />
-      <Travel />
+      <Travel /> */}
     </>
   );
 }

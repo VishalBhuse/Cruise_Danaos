@@ -2,7 +2,7 @@ import { Box, Button, Divider, Image, Input, Text } from "@chakra-ui/react";
 import { color } from "framer-motion";
 import React from "react";
 
-const Home = () => {
+const Banner = () => {
   return (
     <div>
       <Box fontFamily={"Inter"} fontStyle={"normal"} padding={"10px"}>
@@ -265,4 +265,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Banner;

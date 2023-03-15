@@ -3,7 +3,7 @@ import React from "react";
 
 const Birthday = () => {
   return (
-    <Box width={"90%"} margin={"auto"} fontFamily="inter">
+    <Box width={"90%"} margin={"auto"} fontFamily="inter" mt="2rem">
       {/* Birthday Part start */}
       <Box display={"flex"} height={"500px"}>
         <Box width={"50%"}>

@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import OurProducts from "./OurProducts";
 import Birthday from "./Birthday";
 import Travel from "./Travel";
+import LandingPage from "./FooterPage/LandingPage";
 export const Main = () => {
   return (
     <>
@@ -12,6 +13,7 @@ export const Main = () => {
       <OurProducts />
       <Birthday />
       <Travel />
+      <LandingPage/>
     </>
   );
 };

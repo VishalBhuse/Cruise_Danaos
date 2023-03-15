@@ -11,7 +11,7 @@ import {
   Heading,
 } from "@chakra-ui/react";
 import React from "react";
-import {Rating} from './Rating'
+import { Rating } from "./Rating";
 
 const Travel = () => {
   const travel = [
@@ -66,26 +66,47 @@ const Travel = () => {
   ];
   return (
     <Box>
-      <Heading fontSize={"24px"} fontFamily={"Lexend"} fontWeight={800}>Best Travel Deal’s</Heading>
-      <hr style={{height:"5px"}}/>
+      <Heading
+        fontSize={"24px"}
+        color={"#081839"}
+        fontFamily={"Lexend"}
+        textAlign={"center"}
+        fontWeight={800}
+      >
+        Best Travel Deal’s
+      </Heading>
+      <hr style={{ border: "1px solid #081839" }} />
       <Grid templateColumns="repeat(3, 1fr)" gap={6} m={5}>
         {travel &&
           travel.map((e) => (
             <GridItem>
               <Image height={"280px"} width={"433px"} src={e.imgurl} />
               <Stack backgroundColor={"#F2CD5B"} p={5}>
-                <Text fontSize={"24px"} fontFamily={"Lexend"} fontWeight={800}>Lorem ipsum dolor sit amet</Text>
                 <Text fontSize={"24px"} fontFamily={"Lexend"} fontWeight={800}>
-                Lorem Ispum
+                  Lorem ipsum dolor sit amet
+                </Text>
+                <Text fontSize={"24px"} fontFamily={"Lexend"} fontWeight={800}>
+                  Lorem Ispum
                 </Text>
                 <Stack>
                   <Box fontWeight={800} fontSize={"xl"} fontFamily={"Lexend"}>
-                     <Rating stars={4.5}/>
+                    <Rating stars={4.5} />
                   </Box>
                   <Flex>
-                    <Text fontSize={"24px"} fontFamily={"Lexend"} fontWeight={800}>Start From - <span style={{color:"#277E1F"}}>Rs 7000</span></Text>
+                    <Text
+                      fontSize={"24px"}
+                      fontFamily={"Lexend"}
+                      fontWeight={800}
+                    >
+                      Start From -{" "}
+                      <span style={{ color: "#277E1F" }}>Rs 7000</span>
+                    </Text>
                     <Spacer />
-                    <Image src={'./img/add.png'} height={'40px'} width={'40px'}/>
+                    <Image
+                      src={"./img/add.png"}
+                      height={"40px"}
+                      width={"40px"}
+                    />
                   </Flex>
                 </Stack>
               </Stack>

@@ -1,10 +1,10 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, SimpleGrid, Text } from "@chakra-ui/react";
 import React from "react";
 
 const OurProducts = () => {
   return (
     <section>
-      <Box w={"90%"} mx="auto" backgroundColor={'red'}>
+      <Box w={"90%"} mx="auto">
         <Text
           lineHeight={"42px"}
           fontSize={"26px"}
@@ -15,7 +15,7 @@ const OurProducts = () => {
           Sail With Us
         </Text>
         <Text
-        fontWeight={400}
+          fontWeight={400}
           fontSize={"22px"}
           lineHeight={"27px"}
           textAlign="center"
@@ -24,7 +24,29 @@ const OurProducts = () => {
           -Our Products-
         </Text>
       </Box>
-      <Box w='90%'h={'5px'} my="5px"></Box>
+      <Box w="90%" mx="auto" h={"1px"} my="7px" backgroundColor={"#000"}></Box>
+      <Box w="90%" mx="auto" mt="10px">
+        <SimpleGrid columns={3} spacing={10}>
+          <Box bg="tomato" height="auto">
+            <img src="./img/prod1.png" alt="prod1" />
+          </Box>
+          <Box bg="tomato" height="auto">
+            <img src="./img/prod1.png" alt="prod1" />
+          </Box>
+          <Box bg="tomato" height="auto">
+            <img src="./img/prod1.png" alt="prod1" />
+          </Box>
+          <Box bg="tomato" height="auto">
+            <img src="./img/prod1.png" alt="prod1" />
+          </Box>
+          <Box bg="tomato" height="auto">
+            <img src="./img/prod1.png" alt="prod1" />
+          </Box>
+          <Box bg="tomato" height="auto">
+            <img src="./img/prod1.png" alt="prod1" />
+          </Box>
+        </SimpleGrid>
+      </Box>
     </section>
   );
 };

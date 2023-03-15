@@ -4,9 +4,6 @@ import React from "react";
 const Birthday = () => {
   return (
     <Box width={"90%"} margin={"auto"} fontFamily="inter">
-
-
-      
       {/* Birthday Part start */}
       <Box display={"flex"} height={"500px"}>
         <Box width={"50%"}>
@@ -129,7 +126,7 @@ const Birthday = () => {
             </Button>
           </Box>
         </Box>
-
+        
         <Box display="flex">
           <Box width="50%">
             <Image height={"100%"} src="./img/party2-birth.png"></Image>

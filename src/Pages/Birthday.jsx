@@ -126,6 +126,7 @@ const Birthday = () => {
             </Button>
           </Box>
         </Box>
+        
         <Box display="flex">
           <Box width="50%">
             <Image height={"100%"} src="./img/party2-birth.png"></Image>

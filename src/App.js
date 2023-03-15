@@ -1,14 +1,16 @@
-import Birthday from "./Pages/Birthday";
+// import Birthday from "./Pages/Birthday";
 import Home from "./Pages/Home";
 import OurProducts from "./Pages/OurProducts";
-import Travel from "./Pages/Travel";
+// import Travel from "./Pages/Travel";
 
 function App() {
   return (
     <>
+
       <Home />
       {/* <OurProducts />
       <Birthday />
+
       <Travel /> */}
     </>
   );
